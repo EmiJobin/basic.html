@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body{color:blue; background-color:lightgrey;text-align:center;;}
+h1{color:green; background-color:white; text-align:right;}
+h2{text-align:left;}
+div{
+border:1px solid black;
+padding:10px;
+width:200px;
+height:200px;
+text-align:justify;
+}
+h3{direction: rtl;
+  unicode-bidi: bidi-override;text-align:right;
+}
+.top{vertical-align:top;}
+.middle{vertical-align:middle;}
+.bottom{vertical-align:bottom;}
+a{text-decoration:none;}
+h6 {
+  text-decoration: overline;
+}
+
+h4{
+  text-decoration: line-through;
+}
+
+h5 {
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<h6>This is heading 6</h6>
+<h5>This is heading 5</h5>
+<h4>This is heading 4</h4>
+<h1> this is the heading</h1>
+<p> this is an ordinary pargraph.notice that coloris blue.the default color for a page is defined in the body selector</p>
+<p> another pargraph</p>
+<h2> this is the second paragraph</h2>
+<h3> this is right- to-left direction.</h3>
+<div>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'</div>
+<p>An <img src="w3schools_logo.gif" alt="W3Schools" width="270"height="100">image with a default alignment</p><br>
+<p>An <img class="top"src="w3schools_logo.gif" alt="W3Schools" width="270"height="100">image with a top alignment</p><br>
+<p>An<img class="middle" src="w3schools_logo.gif" alt="W3Schools" width="270"height="100">image with midddle alignment</p><br>
+<p>An <img class="bottom"src="w3schools_logo.gif" alt="W3Schools" width="270"height="100">image with bottom alignment</p><br>
+<p> link with no underline<a href="https://www.w3schools.com/css/css_text_decoration.asp"></a></p>
+</body>
+</html>
